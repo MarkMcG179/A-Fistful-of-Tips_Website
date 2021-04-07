@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>layout</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--declare a container to surround the entire page -->
+<div id="container">
+
+<!--declare a header -->
+<div id="header">
+<h1>A Fistful of Tips</h1>
+</div> <!--end header-->
+
+<!--declare a navigation area that will be floated left with hypertext links configured in a ul-->
+<div id="leftnav">
+<ul>
+<li><a href="home.html"><h2>Home</h2></a></li>
+<li><a href="general.html"><h2>General</h2></a></li>
+<li><a href="weaponry.html"><h2>Weaponry</h2></a></li>
+<li><a href="eastereggs.html"><h2>Easter Eggs</h2></a></li>
+<li><a href="contactus.html"><h2>Contact Us</h2></a></li>
+</ul>
+</div><!--end leftnav -->
+
+<!--declare a division that will hold the main content of the page -->
+<div id="content">
+<h1>Contact Us</h1>
+<div id="IP5"><p><h3>Is there any snippets of information we missed? If you have a tip that we did not feature, please use the contact form below to message us your findings. The secret or tip you message us may have a chance of being featured on the website, with your name alongside it.</h3></p></div>
+
+
+<img src="letter.png" alt="Letter" class="bottom">
+
+<!--contact form-->
+<div id="more_tips">
+<h1><b>For a Few Tips More...</b><h1>
+</div>
+<form method="post" id="myform">
+<div>
+<label for "fname">First name: </label><input type="text" name="fname" id="fname">
+</div>
+<div>
+<label for "lname">Last name: </label><input type="text" name="lname" id="lname">
+</div>
+<div>
+<label for "email">E-mail: </label><input type="text" name="email" id="email">
+</div>
+<div>
+<label for "comments">Comments: </label>
+<textarea name="comments" id="comments" rows="2" cols="20">
+</textarea>
+</div>
+<div>
+<div id="mySubmit">
+<input type="submit" value="Contact"> <input type="reset">
+</div>
+</form>
+</div><!--end contact form div-->
+
+</div><!--end content div-->
+<!--declare a footer division that will store copyright information-->
+<div id="footer">
+<small>Copyright &copy; Mark McGuinness 2018</small>
+</div> <!--end footer div-->
+
+</div> <!--end container div-->
+
+</body>
+</html>
